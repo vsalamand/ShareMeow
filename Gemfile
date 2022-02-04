@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
-ruby '2.5.3'
+# ruby '2.5.3'
+ruby '2.6.2'
+
 
 gem 'sinatra', require: 'sinatra/base'
-gem 'sinatra-contrib', git: 'https://github.com/maccman/sinatra-contrib'
+gem 'sinatra-contrib'
 gem 'sinatra-initializers'
 gem 'activesupport', require: false
 gem 'rack-standards'
@@ -15,7 +17,7 @@ gem 'builder'
 gem 'json'
 gem 'dotenv'
 gem 'imgkit'
-gem 'rumoji', git: 'https://github.com/mwunsch/rumoji'
+gem 'rumoji'
 gem 'gemoji'
 gem 'pry', require: false, group: :production
 

@@ -5,7 +5,7 @@ module EmojiHelper
     content = Rumoji.encode(content)
 
     content.to_str.gsub(/:([\w+-]+):/) do |match|
-      emoji = Emoji.find_by_alias(Regexp.last_match(1))
+      emoji = Emoji.find_by_alias($1)
 
       if emoji
         %(<img alt="#{Regexp.last_match(1)}" src="#{ShareMeow::App.base_url}/images/emoji/#{emoji.image_filename}" #{IMAGE_PARAMS} />)

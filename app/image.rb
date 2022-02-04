@@ -1,4 +1,5 @@
 require 'securerandom'
+require 'imgkit'
 
 module ShareMeow
   class Image
