@@ -36,7 +36,7 @@ GEM
     docile (1.1.5)
     dotenv (2.6.0)
     erubis (2.7.0)
-    gemoji (3.0.0)
+    gemoji (3.0.1)
     i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     imgkit (1.6.1)
